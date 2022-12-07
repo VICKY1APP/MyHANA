@@ -1,0 +1,9 @@
+column table "ZORDER_DETAILS" (
+    IHREZ  NVARCHAR(12) unique not null COMMENT 'Your Reference',
+    VBELN NVARCHAR(10) COMMENT 'Sales Order',
+    SERNR NVARCHAR(18) not null COMMENT 'Serial Number',
+    Kunnr NVARCHAR(10) COMMENT 'Customer Code',
+    Name1 NVARCHAR(30) COMMENT 'Customer Name',
+    TRKNO NVARCHAR(35) COMMENT 'Tracking Number',
+    PRIMARY KEY ("IHREZ")
+)

@@ -5,6 +5,7 @@ column table "TGT_SALARIES" (
     GENDER NVARCHAR(1) COMMENT 'Gender',
     REGION NVARCHAR(4) COMMENT 'Region',
     "T-LEVEL" NVARCHAR(200) COMMENT 'T Level',
+    REGION_Nmae NVARCHAR(20) COMment 'Region Name'
     PRIMARY KEY ("ID")
 )
 COMMENT 'Employee Salary'
